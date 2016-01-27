@@ -1,0 +1,48 @@
+git clone https://github.com/kachito/anticorrupcion.git
+git branch produccion
+git checkout produccion
+	touch subir
+	git add *	
+	git commit -m "subir archivo para crear rama"
+	git push origin produccion
+git branch desarrollo
+git checkout desarrollo
+	nano subir
+	git add *	
+	git commit -m "subir archivo para crear otra rama"
+	git push origin desarrollo
+nano index.html
+git add *
+git commit -m "index"
+git push origin master
+
+
+
+	
+git config --global user.name "Maria"
+git config --global user.email "lenin_yepez@hotmail.com"
+git checkout desarrollo
+	nano qsomos.html
+	git add *	
+	git commit -m "subir qsomos"
+	git push origin desarrollo
+
+
+git config --global user.name "Lenin"
+git config --global user.email "lenin.yepez@gmail.com"
+git checkout produccion
+	nano acerca.html
+	git add *	
+	git commit -m "subir qsomos"
+	git push origin produccion
+
+git config --global user.name "Maria"
+git config --global user.email "lenin_yepez@hotmail.com"
+git checkout produccion
+	nano contactenos.html
+	git add *	
+	git commit -m "subir qsomos"
+	git push origin produccion
+
+
+
